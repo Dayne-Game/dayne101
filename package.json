@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "start": "webpack",
+    "start:netlify": "npm i && webpack",
+    "start:dev-init": "npm i && npm start && webpack-dev-server --watch",
+    "start:dev": "npm start && webpack-dev-server --watch"
+  },
+  "author": "Jeff Kranenburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://<fill-in>/issues"
+  },
+  "repository": "https://<fill-in>",
+  "homepage": "https://<fill-in>#readme",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "dotenv-webpack": "^1.5.7",
+    "html-webpack-plugin": "^3.2.0",
+    "inline-environment-variables-webpack-plugin": "^1.2.1",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^0.4.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
